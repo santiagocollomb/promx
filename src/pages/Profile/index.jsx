@@ -22,7 +22,7 @@ const Profile = () => {
               <div class='d-flex flex-column align-items-center text-center'>
                 <img
                   src={
-                    user.image
+                    user && user.image
                       ? user.image
                       : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePoVhTeaks5ESIWqL34k8BOO9Wh6UZdZECw&usqp=CAU'
                   }

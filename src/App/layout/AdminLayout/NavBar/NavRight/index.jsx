@@ -32,7 +32,7 @@ const NavRight = (props) => {
             <Dropdown.Menu alignRight className='profile-notification'>
               <div className='pro-head'>
                 <img
-                  src={user.image ? user.image : Avatar1}
+                  src={user && user.image ? user.image : Avatar1}
                   className='img-radius'
                   alt='User Profile'
                 />
